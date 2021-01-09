@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+	font-size: 14px;
+}
+.parentdiv{
+	display: flex;
+	flex-wrap: wrap;
+}
+.parentdiv div{
+	flex-basis: 250px;
+	flex-grow: 1;
+	color: white;
+	background: green;
+	padding: 10px;
+	margin: 10px;
+}

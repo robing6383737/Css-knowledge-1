@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+	font-size: 14px;
+}
+.parentdiv div:first-child{
+	color: blue;
+}
+.parentdiv div:nth-child(2){
+	color: red;
+}
+.parentdiv + div{
+	color: green;
+}
